@@ -27,9 +27,89 @@
 
 
 
-/* [nama anda] menulis kode berikut */
+/* [Achmad Adin Yahya] menulis kode berikut */
 /* bagian team */
 
+  .lesson {
+    float: left;
+    width: 20%;
+  }
+  
+  .lesson-icon .pic{
+    position: relative;
+    border-top: none;
+    border-bottom: 5px solid #28a9e2;
+    border-radius: 50% 50% 0 50%;
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  .lesson:hover .pic{    
+    border-bottom-color: #1c142b;
+    border-radius: 0 50%;
+}
+  .lesson .pic img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease 0s;
+}
+.lesson .team-content{ padding: 20px 0; }
+.lesson .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #28a9e2;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.lesson .post{
+    display: block;
+    font-size: 17px;
+    color: #878484;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.lesson .social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lesson .social li{ display: inline-block; }
+.lesson .social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #28a9e2;
+    background: #fff;
+    font-size: 17px;
+    color: #28a9e2;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.lesson:hover .social li a{
+    background: #1c142b;
+    color: #fff;
+}
+  .lesson-icon p {
+    position: absolute;
+    
+    width: 100%;
+    color: white;
+  } 
+
+  .team {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
 
 
@@ -55,7 +135,7 @@
 
 
 /* untuk responsive smartphone */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1000px) {
     /* [nama anda] menulis kode berikut */
     /* bagian nav */
 
@@ -77,9 +157,67 @@
 
 
 
-    /* [nama anda] menulis kode berikut */
+    /* [Achmad Adin Yahya] menulis kode berikut */
     /* bagian team */
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
 
+
+
+
+    /* [nama anda] menulis kode berikut */
+    /* bagian contact */
+
+
+
+
+
+    /* [nama anda] menulis kode berikut */
+    /* bagian footer */
+
+
+
+}
+@media only screen and (max-width: 670px) {
+    /* [nama anda] menulis kode berikut */
+    /* bagian nav */
+
+
+
+
+
+    /* [nama anda] menulis kode berikut */
+    /* bagian home */
+
+
+
+
+
+    /* [nama anda] menulis kode berikut */
+    /* bagian about */
+
+
+
+
+
+    /* [Achmad Adin Yahya] menulis kode berikut */
+    /* bagian team */
+      .lesson {
+       width: 100%;
+      }
+      }
+      .titlex
+      {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        color: black;
+      }
+      .titlex h2 {
+        font-weight: normal;
+        font-size: 45px;
+      }
 
 
 
