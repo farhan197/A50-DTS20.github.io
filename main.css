@@ -113,10 +113,218 @@
 
 
 
-
-/* [nama anda] menulis kode berikut */
+/* [Arief Mochjiyat] menulis kode berikut */
 /* bagian contact */
 
+.contact a {
+    text-decoration: none;
+}
+
+.contact h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #403657;
+}
+
+.contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #403657;
+    margin: 0px;
+}
+
+.contact1 {
+  width: 100%;
+  min-height: 100%;
+  padding: 9px;
+  background: #F2F2F2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact1 {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 90px 90px 90px;
+}
+
+.contact1-pic {
+  width: 500px;
+}
+
+.contact1-pic img {
+  max-width: 100%;
+}
+
+.contact1-form {
+  width: 390px;
+  text-align: center;
+}
+
+.contact1-form-title {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #480FA3;
+  text-align: center;
+  padding-bottom: 35px;
+  text-decoration: none;
+}
+
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+
+input.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #E0D5F8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #666666;
+}
+
+.shadow-input1 {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(156,120,237, 0.5);
+}
+
+.input1:focus + .shadow-input1 {
+  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+  animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+textarea.input1 {
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
+}
+textarea.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container-contact1-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact1-form-btn {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  background: #6020BD;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact1-form-btn:hover {
+  background: #333333;
+}
+
+/*--------[ Animasi ]*/
+@-webkit-keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 80px 30px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 80px 30px;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact1-pic {
+    width: 50%;
+  }
+
+  .contact1-form {
+    width: 50%;
+  }
+}
+
+/*////////////////////////////////////////////////////*/
 
 
 
@@ -167,8 +375,19 @@
 
 
 
-    /* [nama anda] menulis kode berikut */
+    /* [Arief Mochjiyat] menulis kode berikut */
     /* bagian contact */
+    .container-contact1 {
+    padding: 15px 15px 15px 15px;
+    }
+
+    .contact1-pic {
+    width: 50%;
+    }
+
+    .contact1-form {
+    width: 50%;
+    }
 
 
 
@@ -222,8 +441,18 @@
 
 
 
-    /* [nama anda] menulis kode berikut */
+    /* [Arief Mochjiyat] menulis kode berikut */
     /* bagian contact */
+    .container-contact1 {
+    padding: 15px 15px 15px 15px;
+    }
+    .contact1-pic {
+     width: 100%;
+     text-align: center;
+    }
+    .contact1-form {
+    width: 100%;
+    }
 
 
 
