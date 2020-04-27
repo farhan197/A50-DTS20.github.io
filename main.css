@@ -4,25 +4,123 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 /* [nama anda] menulis kode berikut */
 /* bagian nav */
+.nav a {
+    text-decoration: none;
+    color: white;
 
+}
+
+.nav .container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    background-color: #353839;
+    position: fixed;
+    width: 100%;
+}
+
+.nav__logo {
+    font-size: 40px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: stretch;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav__item {
+    padding: 15px 10px;
+    transition: 0.3s;
+}
+
+.nav__item:hover {
+    font-size: 20px;
+    background-color: white;
+    color: #353839;
+}
 
 
 
 
 /* [nama anda] menulis kode berikut */
 /* bagian home */
+.home .container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
 
+.left-side__text h1 {
+    font-size: 50px;
+}
+
+.btn-cta  {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    display: inline-block;
+    padding: 10px 40px;
+    box-shadow: 0 3px 6px grey;
+    transition: 0.1s;
+}
+
+.btn-cta:nth-child(2) {
+    margin-left: 20px;
+    color: orangered;
+    border: 2px solid orangered;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.btn-cta:nth-child(2):active {
+    color: white;
+}
+
+.btn-cta:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px grey;
+
+}
+
+.btn-cta:active {
+    background-color: darkred;
+    box-shadow: 0 3px 6px grey;
+    transform: scale(1);
+}
 
 
 
 
 /* [nama anda] menulis kode berikut */
 /* bagian about */
+.about {
+    padding: 100px;
+    color: white;
+    background-color: salmon;
+    text-align: center;
+}
 
+.about h1 {
+    font-size: 40px;
+
+}
 
 
 
@@ -346,14 +444,58 @@ button:hover {
 @media only screen and (max-width: 1000px) {
     /* [nama anda] menulis kode berikut */
     /* bagian nav */
+    .nav__logo {
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .menu-icon {
+        color: white;
+    }
+
+
+    .nav .container {
+        width: 90%;
+        flex-direction: column;
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .nav__link {
+        display: none;
+        flex-direction: column;
+    }
 
 
 
 
     /* [nama anda] menulis kode berikut */
     /* bagian home */
+    .home .container {
+        width: 90%;
+    }
 
+    .left-side  {
+        text-align: center;
+    }
+
+    .btn-cta {
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-cta:hover {
+        transform: scale(1);
+    }
+
+    .btn-cta:nth-child(2) {
+        margin-left: 0;
+        margin-top: 20px;
+
+    }
 
 
 
