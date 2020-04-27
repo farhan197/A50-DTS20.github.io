@@ -127,7 +127,16 @@ html {
 
 /* [Achmad Adin Yahya] menulis kode berikut */
 /* bagian team */
-
+   .titlex
+   {
+     padding: 100px;
+    color: white;
+    text-align: center;
+   } 
+    .titlex h1
+   {
+      font-size: 40px;
+   }
   .lesson {
     float: left;
     width: 25%;
