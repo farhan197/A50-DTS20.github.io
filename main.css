@@ -631,9 +631,45 @@ to {
 
 
 
-  /* [nama anda] menulis kode berikut */
+  /* [Farhan Thariq Huzaini] menulis kode berikut */
   /* bagian footer */
+.footer-links a {
+    color: #9999;
+}
+.footer {
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    overflow: hidden;
+}
 
+.footer-distributed .footer-left {
+    float: left;
+}
 
+.footer-distributed .footer-links {
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    padding: 0;
+}
 
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: 0 20px;
+    color: #669;
+    padding: 0;
+}
+
+.footer-distributed .footer-right {
+    float: right;
 }
